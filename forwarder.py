@@ -8,10 +8,12 @@ api_hash = ''
 # 有效避免无法申请和封号风险
 
 
-SOURCE_CHANNEL = -100XXXXXXXXXX
+SOURCE_CHANNEL = -100
 # 替换为源频道 ID
-TARGET_CHANNEL = -100XXXXXXXXXX 
+TARGET_CHANNEL = -100
 # 替换为目标频道 ID
+
+# 将获取来的 BOTID 填写到 -100 后面即可
 
 client = TelegramClient('my_session', api_id, api_hash, connection_retries=None)
 
