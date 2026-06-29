@@ -4,16 +4,15 @@ import asyncio
 api_id = 
 api_hash = ''
 
-# 采用公用的 api_id 与 api_hash
-# 有效避免无法申请和封号风险
-
+# api_id 不包含 ''，不要随意添加，api_hash 带有 ''
+# 采用公用的 api_id 与 api_hash ，有效避免无法申请和封号风险
 
 SOURCE_CHANNEL = -100
-# 替换为源频道 ID
+# 替换为源频道 ID 比如：-10033445566
 TARGET_CHANNEL = -100
-# 替换为目标频道 ID
+# 替换为目标频道 ID 比如：-10033445566
 
-# 将获取来的 BOTID 填写到 -100 后面即可
+# 将获取来的 BOTID 填写到 -100 后面即可，项目演示地址：https://t.me/k8fuliii
 
 client = TelegramClient('my_session', api_id, api_hash, connection_retries=None)
 
