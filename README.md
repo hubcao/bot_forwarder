@@ -17,7 +17,7 @@ pip3 install telethon
 ```
 
 # 使用说明
-1、修改脚本内的 api_id 和 api_hash，此处需要到 my.telegram.org(https://my.telegram.org) 处申请，需要 telegram 账号满二年以上才可以申请成功
+1、修改脚本内的应用凭证 api_id 和 api_hash，此处需要到 my.telegram.org(https://my.telegram.org) 处申请，需要 telegram 账号满二年以上才可以申请成功
 
 2、修改脚本内的 SOURCE_CHANNEL 和 TARGET_CHANNEL，SOURCE_CHANNEL 为源频道，TARGET_CHANNEL 为指定频道，获取方法可以在 HubCao Robot(https://t.me/HubCao_Bot) 机器人内获取
 
